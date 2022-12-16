@@ -81,6 +81,7 @@ export default class CreateExercise extends Component {
         <form onSubmit={this.onSubmit}>
           <div className="form-group"> 
             <label>Username: </label>
+            
             <select
                 required
                 className="form-control"

@@ -94,7 +94,7 @@ export default class EditExercise extends Component {
             <form onSubmit={this.onSubmit}>
               <div className="form-group"> 
                 <label>Username: </label>
-                <select ref="userInput"
+                <select
                     className="form-control"
                     value={this.state.username}
                     onChange={this.onChangeUsername}>
