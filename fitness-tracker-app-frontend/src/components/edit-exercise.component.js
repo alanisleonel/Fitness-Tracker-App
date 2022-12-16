@@ -140,6 +140,11 @@ export default class EditExercise extends Component {
                 <input type="submit" value="Edit Exercise Log" className="btn btn-primary" />
               </div>
             </form>
+            <div> 
+            <center>
+              <img src="/gitfitbanner.png" width="800" alt=""></img>
+            </center>
+            </div>
           </div>
         )
       }
